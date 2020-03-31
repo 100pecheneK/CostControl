@@ -1,6 +1,2 @@
-/back/env
-/front/cost-control/node_modules
-/test/testCoinCeeper/env
-/test/testCoinCeeper/front/node_modules
-/test/testRDA/env
-/test/testRDA/myapp/node_modules
+/**/env
+/**/node_modules

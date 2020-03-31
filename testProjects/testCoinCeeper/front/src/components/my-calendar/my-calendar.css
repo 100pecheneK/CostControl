@@ -1,0 +1,17 @@
+.customCalendar .react-calendar__tile--active {
+    background: #38d39f;
+    color: white;
+}
+.customCalendar .react-calendar__tile--active {
+    background: #38d39f;
+    color: white;
+}
+.customCalendar .react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+    background: #29a47b;
+}
+.customCalendar .react-calendar__tile--hasActive {
+    background: #38d39f;
+}
+.customCalendar .react-calendar__tile--hasActive:enabled:hover, .react-calendar__tile--hasActive:enabled:focus {
+    background: #29a47b;
+}

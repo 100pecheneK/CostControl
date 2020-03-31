@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c20f12a1-9eb3-4908-a204-4c7f9106a576" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/Costs/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/Costs/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/tcp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/tcp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/tcp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/tcp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testRDA/mysite/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../testRDA/mysite/core/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="testCoinCeeper" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YYfjLyMGpRzVloHbSEAR8sGVen" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/src/components/signup-form" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front/src/components" />
+      <recent name="$PROJECT_DIR$/front/src/components/login-form" />
+      <recent name="$PROJECT_DIR$/front/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front/src/components/signup-form" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c20f12a1-9eb3-4908-a204-4c7f9106a576" name="Default Changelist" comment="" />
+      <created>1583124582863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583124582863</updated>
+      <workItem from="1583124587735" duration="1707000" />
+      <workItem from="1583230617817" duration="12934000" />
+      <workItem from="1583326775486" duration="62000" />
+      <workItem from="1583326850151" duration="112000" />
+      <workItem from="1583326975529" duration="32000" />
+      <workItem from="1583327020526" duration="52000" />
+      <workItem from="1583327087007" duration="109000" />
+      <workItem from="1583327211523" duration="2076000" />
+      <workItem from="1583386595843" duration="3949000" />
+      <workItem from="1583408582399" duration="11193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="473" y="298" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583326958193">
+      <screen x="0" y="0" width="1440" height="844" />
+    </state>
+    <state x="473" y="298" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1583326958193" />
+    <state x="167" y="52" key="SettingsEditor" timestamp="1583327425186">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="167" y="49" key="SettingsEditor/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1583327007223" />
+    <state x="167" y="52" key="SettingsEditor/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1583327425186" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583327380156">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1583327380156" />
+  </component>
+</project>

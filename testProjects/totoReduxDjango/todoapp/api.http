@@ -1,0 +1,33 @@
+POST http://127.0.0.1:8000/api/auth/register
+Content-Type: application/json
+
+{
+    "username" : "Misha2",
+    "email" : "mistermihail24@gmail.com",
+    "password" : "1234"
+}
+
+POST http://127.0.0.1:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"Misha",
+    "password":"1234"
+}
+
+GET http://127.0.0.1:8000/api/auth/user
+Authorization: Token 0f02e3e7f87a4d69bdb796e8e563b9f25e5e38380349fd28a0a9c6f512101330
+
+POST http://127.0.0.1:8000/api/auth/logout
+Authorization: Token fe7232945bb68dd6640967397c29d18da735be86de2495179b97342a6c687ef5
+
+GET http://127.0.0.1:8000/api/todos
+Authorization: Token 0f02e3e7f87a4d69bdb796e8e563b9f25e5e38380349fd28a0a9c6f512101330
+
+POST http://127.0.0.1:8000/api/todos/
+Authorization: Token 0f02e3e7f87a4d69bdb796e8e563b9f25e5e38380349fd28a0a9c6f512101330
+Content-Type: application/json
+
+{
+    "task":"testTask Misha"
+}
