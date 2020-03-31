@@ -1,0 +1,12 @@
+.costs {
+    display: flex !important;
+    justify-content: space-between;
+}
+.date {
+    color: #a3a3a3 !important;
+    text-align: right !important;
+}
+.delete {
+    margin-left: 0.5em !important;
+    padding: 0.2em 0.05em !important;
+}

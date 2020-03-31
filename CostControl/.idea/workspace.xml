@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb0880df-bd6b-4a01-ab06-1ea5352f8c71" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZTOE1wIyCkHNPxx60cxUDryVE2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report" />
+      <recent name="$PROJECT_DIR$/costs" />
+      <recent name="$PROJECT_DIR$/frontend/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/left-card/cost" />
+      <recent name="$PROJECT_DIR$/frontend/static/frontend" />
+      <recent name="$PROJECT_DIR$/frontend/templates/frontend" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/calendar" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CostControl" type="Python.DjangoServer" factoryName="Django server">
+      <module name="CostControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb0880df-bd6b-4a01-ab06-1ea5352f8c71" name="Default Changelist" comment="" />
+      <created>1584859503471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584859503471</updated>
+      <workItem from="1584859514430" duration="8243000" />
+      <workItem from="1584950975984" duration="4276000" />
+      <workItem from="1585134614613" duration="4152000" />
+      <workItem from="1585220855203" duration="3236000" />
+      <workItem from="1585394765230" duration="2273000" />
+      <workItem from="1585464206505" duration="5498000" />
+      <workItem from="1585483269150" duration="2000" />
+      <workItem from="1585638598824" duration="2900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585639121260">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639121260" />
+    <state x="507" y="212" key="FileChooserDialogImpl" timestamp="1585639247040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="212" key="FileChooserDialogImpl/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639247040" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1585639251310">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639251310" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1584951153930">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1584951153930" />
+    <state x="505" y="120" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585222517649">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="505" y="120" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585222517649" />
+    <state x="301" y="159" width="837" height="582" key="find.popup" timestamp="1585466255063">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="159" width="837" height="582" key="find.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585466255063" />
+    <state x="370" y="185" width="700" height="530" key="recent.locations.popup" timestamp="1585222531001">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="370" y="185" width="700" height="530" key="recent.locations.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585222531001" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585639628437">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639628437" />
+  </component>
+</project>
