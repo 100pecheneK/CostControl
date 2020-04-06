@@ -5,10 +5,12 @@ import CostForm from "../cost-form/cost-form"
 import {Link} from "react-router-dom"
 import Modal from "../../../../../modal/modal"
 import history from "../../../../../../history"
+import {getUserMoneyInfo} from "../../../../../../actions/user"
 
 class CostCreate extends Component {
     onSubmit = formValues => {
         this.props.addCost(formValues)
+        this.props.getUserMoneyInfo()
     }
 
     renderContent() {
@@ -33,5 +35,5 @@ class CostCreate extends Component {
 
 export default connect(
     null,
-    {addCost}
+    {addCost, getUserMoneyInfo}
 )(CostCreate)

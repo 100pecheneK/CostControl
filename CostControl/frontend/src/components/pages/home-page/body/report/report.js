@@ -5,6 +5,7 @@ import {Link} from "react-router-dom"
 import Calendar from "../calendar"
 import Column from "../containers/column"
 import Header from "../header/header"
+import BodyContainer from "../body"
 
 class Report extends Component {
     componentDidMount() {
@@ -24,16 +25,19 @@ class Report extends Component {
             <React.Fragment>
                 <Header title='Отчёт'/>
                 {this.props.report.map(({category, total_cost}, i) => (
-                <p key={i}>{category} - {total_cost}</p>
+                    <p key={i}>{category} - {total_cost}</p>
                 ))}
             </React.Fragment>
         )
 
         return (
-            <React.Fragment>
-                <Column content={left}/>
-                <Calendar data='report'/>
-            </React.Fragment>
+            <BodyContainer component={
+                <React.Fragment>
+                    <Column content={left}/>
+                    <Calendar data='report'/>
+                </React.Fragment>
+            }/>
+
         )
     }
 }

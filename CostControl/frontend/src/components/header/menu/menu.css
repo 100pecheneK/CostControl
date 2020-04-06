@@ -1,4 +1,6 @@
 .header-menu {
     border-radius: 0 !important
 }
-
+.ui.dropdown .menu>.header{
+    text-transform: unset;
+}

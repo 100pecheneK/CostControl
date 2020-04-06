@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb0880df-bd6b-4a01-ab06-1ea5352f8c71" name="Default Changelist" comment="" />
+    <list default="true" id="eb0880df-bd6b-4a01-ab06-1ea5352f8c71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/actions/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/auth/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/auth/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/private-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_extension/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_extension/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cost_control/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cost_control/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cost_control/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cost_control/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/costs/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/costs/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/costs/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/costs/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/costs/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/costs/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/costs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/costs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/left-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/left-items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/right-items/right-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/right-items/right-items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-create/cost-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-create/cost-create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-form/cost-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-form/cost-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-item/cost-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-item/cost-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/frontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_extension/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_extension/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/testCoinCeeper/tcp/Costs/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/testCoinCeeper/tcp/Costs/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/accounts/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/accounts/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/static/frontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +64,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZTOE1wIyCkHNPxx60cxUDryVE2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,16 +83,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user_extension" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user_extension" />
+      <recent name="$PROJECT_DIR$/frontend/src/components" />
       <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report" />
       <recent name="$PROJECT_DIR$/costs" />
-      <recent name="$PROJECT_DIR$/frontend/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body" />
@@ -89,6 +154,9 @@
       <workItem from="1585464206505" duration="5498000" />
       <workItem from="1585483269150" duration="2000" />
       <workItem from="1585638598824" duration="2900000" />
+      <workItem from="1585647972779" duration="8706000" />
+      <workItem from="1586070334920" duration="4565000" />
+      <workItem from="1586078228794" duration="9107000" />
     </task>
     <servers />
   </component>
@@ -104,6 +172,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="507" y="212" key="FileChooserDialogImpl/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639247040" />
+    <state width="1396" height="226" key="GridCell.Tab.0.bottom" timestamp="1586076726447">
+      <screen x="0" y="0" width="1440" height="844" />
+    </state>
+    <state width="1396" height="226" key="GridCell.Tab.0.bottom/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1586076726447" />
+    <state width="1396" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586072752073" />
+    <state width="1396" height="226" key="GridCell.Tab.0.center" timestamp="1586076726443">
+      <screen x="0" y="0" width="1440" height="844" />
+    </state>
+    <state width="1396" height="226" key="GridCell.Tab.0.center/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1586076726443" />
+    <state width="1396" height="226" key="GridCell.Tab.0.center/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586072752071" />
+    <state width="1396" height="226" key="GridCell.Tab.0.left" timestamp="1586076726441">
+      <screen x="0" y="0" width="1440" height="844" />
+    </state>
+    <state width="1396" height="226" key="GridCell.Tab.0.left/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1586076726440" />
+    <state width="1396" height="226" key="GridCell.Tab.0.left/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586072752071" />
+    <state width="1396" height="226" key="GridCell.Tab.0.right" timestamp="1586076726445">
+      <screen x="0" y="0" width="1440" height="844" />
+    </state>
+    <state width="1396" height="226" key="GridCell.Tab.0.right/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1586076726445" />
+    <state width="1396" height="226" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586072752072" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1585639251310">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -116,17 +204,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="505" y="120" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585222517649" />
-    <state x="301" y="159" width="837" height="582" key="find.popup" timestamp="1585466255063">
+    <state x="301" y="149" width="837" height="582" key="find.popup" timestamp="1585648736175">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="159" width="837" height="582" key="find.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585466255063" />
+    <state x="301" y="149" width="837" height="582" key="find.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585648736175" />
     <state x="370" y="185" width="700" height="530" key="recent.locations.popup" timestamp="1585222531001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="370" y="185" width="700" height="530" key="recent.locations.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585222531001" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585639628437">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586082485291">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639628437" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586082485291" />
   </component>
 </project>

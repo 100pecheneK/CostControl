@@ -2,11 +2,13 @@ import React, {Component} from "react"
 import './cost-item.css'
 import {connect} from "react-redux"
 import {deleteCost} from "../../../../../../actions/costs"
+import {getUserMoneyInfo} from "../../../../../../actions/user"
 
 class CostItem extends Component {
 
     onDelete = (id) => {
         this.props.deleteCost(id)
+        this.props.getUserMoneyInfo()
     }
 
     render() {
@@ -34,5 +36,5 @@ class CostItem extends Component {
 
 export default connect(
     null,
-    {deleteCost}
+    {deleteCost, getUserMoneyInfo}
 )(CostItem)

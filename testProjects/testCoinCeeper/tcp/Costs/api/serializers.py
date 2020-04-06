@@ -23,6 +23,16 @@ class CostCreateUpdateSerializer(ModelSerializer):
         ]
 
 
+class CarDetailSerializer(ModelSerializer):
+    user = SerializerMethodField()
+
+    class Meta:
+        model = Cost
+        fields = '__all__'
+
+    def get_user(self, obj):
+        return str(obj.user.username)
+
 class CostDetailSerializer(ModelSerializer):
     user = SerializerMethodField()
     cost_type = SerializerMethodField()

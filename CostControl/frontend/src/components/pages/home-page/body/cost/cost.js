@@ -4,6 +4,7 @@ import Header from "../header"
 import Calendar from "../calendar"
 import Column from "../containers/column"
 import {Link} from "react-router-dom"
+import BodyContainer from "../body"
 
 const Cost = () => {
     const action = (
@@ -20,10 +21,13 @@ const Cost = () => {
         </React.Fragment>
     )
     return (
-        <React.Fragment>
-            <Column content={left}/>
-            <Calendar data='cost'/>
-        </React.Fragment>
+        <BodyContainer component={
+            <React.Fragment>
+                <Column content={left}/>
+                <Calendar data='cost'/>
+            </React.Fragment>
+        }/>
+
 
     )
 }

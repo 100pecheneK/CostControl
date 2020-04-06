@@ -4,7 +4,7 @@ from django.urls import path
 from .views import (
     CostViewSet,
     CategoryAPIView,
-    CostReportView
+    CostReportView,
 )
 
 router = routers.DefaultRouter()

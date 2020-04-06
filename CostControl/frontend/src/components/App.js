@@ -6,20 +6,30 @@ import {Provider} from 'react-redux'
 import store from "../store"
 import Header from "./header"
 import CostCreate from './pages/home-page/body/cost/cost-create'
-import Body from "./pages/home-page/body"
+import {loadUser} from "../actions/auth"
+import LoginForm from "./auth/LoginForm"
+import Cost from "./pages/home-page/body/cost"
+import Report from "./pages/home-page/body/report"
+import PrivateRoute from "./common/private-route"
+import RegisterForm from "./auth/RegisterForm"
 
 
 class App extends Component {
+    componentDidMount() {
+        store.dispatch(loadUser())
+    }
+
     render() {
         return (
             <Provider store={store}>
                 <Router history={history}>
                     <Header/>
-                    <Body/>
                     <Switch>
-
+                        <PrivateRoute exact path='/' component={Cost}/>
                         <Route exact path='/create' component={CostCreate}/>
-                        {/* <Route exact path='/report' component={Report} /> */}
+                        <Route exact path='/report' component={Report}/>
+                        <Route exact path='/login' component={LoginForm}/>
+                        <Route exact path='/register' component={RegisterForm}/>
                     </Switch>
                 </Router>
 

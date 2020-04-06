@@ -44,7 +44,7 @@ class CostReportSerializer(ModelSerializer):
         ]
 
     def get_category(self, obj):
-
         for category in Category.objects.all():
             if category.id == obj['category']:
                 return category.category
+

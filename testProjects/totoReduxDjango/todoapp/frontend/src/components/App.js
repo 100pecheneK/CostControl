@@ -25,6 +25,7 @@ class App extends Component {
             <Provider store={store}>
                 <Router history={history}>
                     <Header />
+
                     <Switch>
                         <PrivateRoute exact path='/' component={HomePage} />
                         <Route exact path='/delete/:id' component={TodoDelete} />
