@@ -20,6 +20,7 @@ class LeftItems extends Component {
                     header="Расходы"
                     description={month_cost}/>
                 <IconContainer
+                    to='/add_balance'
                     icon="fas fa-wallet"/>
             </div>
         )

@@ -11,16 +11,12 @@ class RightItems extends Component {
             <div className="right menu">
                 <Route exact path='/' render={() => {
                     return (
-                        <Link to='/report' className='item'>
-                            <i className='chart pie icon'/>
-                        </Link>
+                        <IconContainer to='/report' icon='chart pie icon'/>
                     )
                 }}/>
                 <Route exact path='/report' render={() => {
                     return (
-                        <Link to='/' className='item'>
-                            <i className="fas fa-home"/>
-                        </Link>
+                        <IconContainer to='/' icon='fas fa-home'/>
                     )
                 }}/>
                 <IconContainer

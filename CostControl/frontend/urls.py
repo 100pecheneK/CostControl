@@ -8,4 +8,5 @@ urlpatterns = [
     path('report/', index),
     path('register/', index),
     path('login/', index),
+    path('add_balance/', index),
 ]

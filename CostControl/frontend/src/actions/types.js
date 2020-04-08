@@ -25,6 +25,5 @@ export const LOGIN_FAIL = 'LOGIN_FAIL'
 export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS'
 
 // user
-export const GET_USER_BALANCE = 'GET_USER_BALANCE'
-export const GET_USER_MONTH_COSTS = 'GET_USER_MONTH_COSTS'
 export const GET_USER_MONEY_INFO = 'GET_USER_MONEY_INFO'
+export const ADD_BALANCE = 'ADD_BALANCE'

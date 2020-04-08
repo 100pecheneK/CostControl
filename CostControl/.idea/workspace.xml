@@ -2,55 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0880df-bd6b-4a01-ab06-1ea5352f8c71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/actions/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/actions/categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/actions/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/auth/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/auth/RegisterForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/common/private-route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/reducers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_extension/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_extension/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/add-balance/add-balance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/add-balance/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/balance-form/balance-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/balance-form/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cost_control/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cost_control/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cost_control/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cost_control/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/costs/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/costs/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/costs/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/costs/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/costs/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/costs/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/actions/costs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/costs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/actions/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/items-containers/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/items-containers/items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/left-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/left-items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/right-items/right-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/right-items/right-items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/body.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-create/cost-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-create/cost-create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-form/cost-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-form/cost-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-item/cost-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-item/cost-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/frontend/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_extension/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_extension/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/testCoinCeeper/tcp/Costs/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/testCoinCeeper/tcp/Costs/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/accounts/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/accounts/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/frontend/static/frontend/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../testProjects/totoReduxDjango/todoapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_extension/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_extension/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,21 +69,43 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/add-balance" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body" />
+      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/left-card/cost" />
+      <recent name="$PROJECT_DIR$/frontend/static/frontend" />
+      <recent name="$PROJECT_DIR$/frontend/templates/frontend" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/user_extension" />
       <recent name="$PROJECT_DIR$/frontend/src/components" />
       <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/report" />
       <recent name="$PROJECT_DIR$/costs" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body" />
-      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/left-card/cost" />
-      <recent name="$PROJECT_DIR$/frontend/static/frontend" />
-      <recent name="$PROJECT_DIR$/frontend/templates/frontend" />
-      <recent name="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/calendar" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CostControl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_extension/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_extension/api/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CostControl" type="Python.DjangoServer" factoryName="Django server">
       <module name="CostControl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,6 +129,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -157,6 +156,7 @@
       <workItem from="1585647972779" duration="8706000" />
       <workItem from="1586070334920" duration="4565000" />
       <workItem from="1586078228794" duration="9107000" />
+      <workItem from="1586334833062" duration="5170000" />
     </task>
     <servers />
   </component>
@@ -192,10 +192,10 @@
     </state>
     <state width="1396" height="226" key="GridCell.Tab.0.right/0.0.1440.844/1440.-180.1920.1080@0.0.1440.844" timestamp="1586076726445" />
     <state width="1396" height="226" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586072752072" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1585639251310">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1586335145928">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1585639251310" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.-180.1920.1080@0.0.1440.900" timestamp="1586335145928" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1584951153930">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

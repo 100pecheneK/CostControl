@@ -12,6 +12,7 @@ import Cost from "./pages/home-page/body/cost"
 import Report from "./pages/home-page/body/report"
 import PrivateRoute from "./common/private-route"
 import RegisterForm from "./auth/RegisterForm"
+import AddBalance from "./header/menu/left-items/add-balance/add-balance"
 
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
                         <Route exact path='/report' component={Report}/>
                         <Route exact path='/login' component={LoginForm}/>
                         <Route exact path='/register' component={RegisterForm}/>
+                        <Route exact path='/add_balance' component={AddBalance}/>
                     </Switch>
                 </Router>
 

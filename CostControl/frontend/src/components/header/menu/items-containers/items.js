@@ -1,5 +1,6 @@
 import React from "react"
 import './items.css'
+import {Link} from "react-router-dom"
 
 export const MoneyContainer = ({description, header}) => {
     return (
@@ -9,8 +10,8 @@ export const MoneyContainer = ({description, header}) => {
         </div>
     )
 }
-export const IconContainer = ({className = '', icon, content = null}) => {
+export const IconContainer = ({to='#', className = '', icon, content = null}) => {
     return (
-        <span className={`item ${className}`}><i className={`${icon}`}/>{content}</span>
+        <Link to={to} className={`item ${className}`}><i className={`${icon}`}/>{content}</Link>
     )
 }
