@@ -2,17 +2,27 @@ import React, {Component} from "react"
 import './cost-item.css'
 import {connect} from "react-redux"
 import {deleteCost} from "../../../../../../actions/costs"
+import {Animated} from "react-animated-css";
 
 class CostItem extends Component {
+    state = {
+        isVisible: true
+    }
 
     onDelete = (id) => {
+        this.setState({
+            isVisible: false
+        })
         this.props.deleteCost(id)
     }
+
 
     render() {
         const {id, category: {category: category, icon: icon}, cost, created_at} = this.props.item
         return (
-            <div className="item">
+            <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={300} animationOutDuration={300}
+                      isVisible={this.state.isVisible}
+                      className="item">
                 <i className={`${icon} icon`}/>
                 <div className="content">
                     <div className="header costs">
@@ -27,7 +37,8 @@ class CostItem extends Component {
                     <div className="description">{category}</div>
 
                 </div>
-            </div>
+            </Animated>
+
         )
     }
 }

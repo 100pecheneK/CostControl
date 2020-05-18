@@ -1,8 +1,8 @@
-import React, {Component} from 'react'
-import {connect} from 'react-redux'
-import {addCost} from "../../../../../../actions/costs"
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { addCost } from "../../../../../../actions/costs"
 import CostForm from "../cost-form/cost-form"
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import Modal from "../../../../../modal/modal"
 import history from "../../../../../../history"
 
@@ -12,11 +12,13 @@ class CostCreate extends Component {
     }
 
     renderContent() {
-        return <CostForm destroyOnUnmount={false} onSubmit={this.onSubmit}/>
+        return <CostForm destroyOnUnmount={false}
+            onSubmit={this.onSubmit}
+        />
     }
 
     renderActions() {
-        return <Link to='/' className='ui button'>Cancel</Link>
+        return <Link to='/' className='ui button'>Отмена</Link>
     }
 
     render() {
@@ -33,5 +35,5 @@ class CostCreate extends Component {
 
 export default connect(
     null,
-    {addCost}
+    { addCost }
 )(CostCreate)

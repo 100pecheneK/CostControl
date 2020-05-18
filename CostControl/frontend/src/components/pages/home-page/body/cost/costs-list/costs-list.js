@@ -4,8 +4,11 @@ import {connect} from 'react-redux'
 import {getCosts} from "../../../../../../actions/costs"
 
 class CostsList extends Component {
+
     componentDidMount() {
-        this.props.getCosts()
+        if (!this.props.costs.length) {
+            this.props.getCosts()
+        }
     }
 
     render() {

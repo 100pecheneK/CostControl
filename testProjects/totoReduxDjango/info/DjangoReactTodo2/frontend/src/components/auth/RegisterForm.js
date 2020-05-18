@@ -6,6 +6,8 @@ import { register } from '../../actions/auth';
 
 class RegisterForm extends Component {
   renderField = ({ input, label, type, meta: { touched, error } }) => {
+    console.log(error);
+    
     return (
       <div className={`field ${touched && error ? 'error' : ''}`}>
         <label>{label}</label>

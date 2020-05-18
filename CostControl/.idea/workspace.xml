@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0880df-bd6b-4a01-ab06-1ea5352f8c71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/add-balance/add-balance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/add-balance/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/balance-form/balance-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/balance-form/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/costs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/costs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/actions/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/actions/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/items-containers/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/items-containers/items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/auth/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/auth/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/balance-form/balance-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/balance-form/balance-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/left-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/left-items/left-items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/right-items/right-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/right-items/right-items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/header/menu/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/modal/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/modal/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-create/cost-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-create/cost-create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-form/cost-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-form/cost-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-item/cost-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/cost-item/cost-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reducers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducers/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/costs-list/costs-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/home-page/body/cost/costs-list/costs-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/static/frontend/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_extension/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_extension/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_extension/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +151,7 @@
       <workItem from="1586070334920" duration="4565000" />
       <workItem from="1586078228794" duration="9107000" />
       <workItem from="1586334833062" duration="5170000" />
+      <workItem from="1586772937352" duration="5476000" />
     </task>
     <servers />
   </component>

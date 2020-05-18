@@ -1,19 +1,27 @@
-import React, {Component} from 'react'
-import {Field, reduxForm} from "redux-form"
-import {connect} from "react-redux"
-import {getCategories} from "../../../../../../actions/categories"
+import React, { Component } from 'react'
+import { Field, reduxForm } from "redux-form"
+import { connect } from "react-redux"
+import { getCategories } from "../../../../../../actions/categories"
 
 
 class CostForm extends Component {
+    state = {
+        costValue: ''
+    }
+
     componentDidMount() {
         this.props.getCategories()
     }
-
-    renderField = ({input, label, meta: {touched, error}}) => {
+    onKeyPress = (e) => {
+        if (e.key.match(/[^0-9]/ig)) {            
+            e.preventDefault()
+        }
+    }
+    renderField = ({ input, label, type, meta: { touched, error } }) => {
         return (
             <div className={`field ${touched && error ? 'error' : ''}`}>
                 <label>{label}</label>
-                <input {...input} autoComplete='off'/>
+                <input {...input} autoComplete='off' type={type} onKeyPress={e => this.onKeyPress(e)} />
                 {touched && error && (
                     <span className='ui pointing red basic label'>{error}</span>
                 )}
@@ -22,13 +30,13 @@ class CostForm extends Component {
     }
 
 
-    renderOptions = ({input, label, meta: {touched, error}}) => {
+    renderOptions = ({ input, label, meta: { touched, error } }) => {
         return (
             <div className={`field ${touched && error ? 'error' : ''}`}>
                 <label>{label}</label>
-                <select {...input}>
-                    <option/>
-                    {this.props.categories.map(({id, category}) => (
+                <select className="ui fluid dropdown" {...input}>
+                    <option />
+                    {this.props.categories.map(({ id, category }) => (
                         <option value={id} key={id}>
                             {category}
                         </option>
@@ -49,8 +57,8 @@ class CostForm extends Component {
             <form
                 onSubmit={this.props.handleSubmit(this.onSubmit)}
                 className='ui form error'>
-                <Field name='cost' component={this.renderField} label='Сумма'/>
-                <Field name="category_id" component={this.renderOptions} label='Категория'/>
+                <Field name='cost' component={this.renderField} label='Сумма'  type="number" />
+                <Field name="category_id" component={this.renderOptions} label='Категория' />
                 <button className='ui primary button'>Добавить</button>
             </form>
         )
@@ -62,6 +70,12 @@ const validate = formValues => {
     if (!formValues.cost) {
         errors.cost = 'Пожалуйста, укажите сумму'
     }
+    try {
+        if (formValues.cost.match(/[^0-9]/ig)) {
+            errors.cost = 'Толкьо целые числа'
+        }
+    } catch (e) { }
+
     if (!formValues.category_id) {
         errors.category_id = 'Пожалуйста, выберите категорию'
     }
@@ -82,5 +96,5 @@ CostForm = reduxForm({
 
 export default connect(
     mapStateToProps,
-    {getCategories}
+    { getCategories }
 )(CostForm)

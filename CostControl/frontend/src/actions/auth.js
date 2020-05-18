@@ -12,6 +12,7 @@ import {
     LOGOUT_SUCCESS
 } from './types'
 
+
 export const loadUser = () => async (dispatch, getState) => {
     dispatch({type: USER_LOADING})
     try {
@@ -26,6 +27,7 @@ export const loadUser = () => async (dispatch, getState) => {
         })
     }
 }
+
 
 export const register = ({username, email, password}) => async dispatch => {
     const config = {

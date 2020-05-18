@@ -1,6 +1,18 @@
 .header-menu {
     border-radius: 0 !important
 }
-.ui.dropdown .menu>.header{
+
+.ui.dropdown .menu > .header {
     text-transform: unset;
+}
+
+.header-menu a {
+    transition: 0.3s !important;
+}
+
+.header-menu a:hover i {
+    transform: scale(1.2);
+}
+.menu {
+    z-index: 100 !important;
 }

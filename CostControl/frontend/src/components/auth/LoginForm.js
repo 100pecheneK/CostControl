@@ -45,20 +45,20 @@ class LoginForm extends Component {
                             name='username'
                             type='text'
                             component={this.renderField}
-                            label='Username'/>
+                            label='Имя пользователя'/>
                         <Field
                             name='password'
                             type='password'
                             component={this.renderField}
-                            label='Password'/>
+                            label='Пароль'/>
                         <Field
                             name='non_field_errors'
                             type='hidden'
                             component={this.hiddenField}/>
-                        <button className='ui primary button'>Login</button>
+                        <button className='ui primary button'>Войти</button>
                     </form>
                     <p style={{marginTop: '1rem'}}>
-                        Don't have an account? <Link to='/register'>Register</Link>
+                        Нет аккаунта? <Link to='/register'>Зарегистрироваться</Link>
                     </p>
                 </div>
             </div>

@@ -12,6 +12,7 @@ djangorestframework = "*"
 ipython = "*"
 django-rest-knox = "*"
 django-model-utils = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.8"
